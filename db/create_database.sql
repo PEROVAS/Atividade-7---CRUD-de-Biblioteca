@@ -36,6 +36,7 @@ CREATE TABLE emprestimos (
 );
 
 
+
 INSERT INTO autores (nome, nacionalidade, ano_nascimento) VALUES
 ('Machado de Assis', 'Brasileiro', 1839),
 ('J. K. Rowling', 'Britânica', 1965),

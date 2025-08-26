@@ -1,0 +1,19 @@
+Biblioteca CRUD
+
+Sistema em PHP com XAMPP para gerenciar autores, leitores, livros e empréstimos.
+
+ Tabelas
+
+autores(id_autor, nome, nacionalidade, ano_nascimento)  
+leitores(id_leitor, nome, email, telefone)  
+livros(id_livro, titulo, genero, ano_publicacao, id_autor)  
+emprestimos(id_emprestimo, id_livro, id_leitor, data_emprestimo, data_devolucao)  
+
+Regras de negócio
+
+Um autor → vários livros  
+Livro → um autor  
+Empréstimo só se não houver ativo  
+Máx. 3 empréstimos ativos por leitor  
+Ano de publicação: 1501 até ano atual  
+Devolução ≥ empréstimo  
